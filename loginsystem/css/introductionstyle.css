@@ -1,0 +1,47 @@
+	
+	.div1 {
+    	float: left;
+    	width: 20%;
+    	padding: 80px;
+    	}
+	
+	.div2 {
+    	float: right;
+    	padding: 5px;
+    	width: 45%;
+	}
+	
+	form {
+	border: 2px inset rgb(120, 120, 120);
+	width:45%;
+	background-color:rgb(240, 240, 240);
+	box-shadow: 5px 7px 10px rgba(60, 60, 60, 0.5);
+	border-radius: 6px;
+	}
+	
+	input[type=text], input[type=password] {
+    	width: 100%;
+    	padding: 12px 20px;
+    	margin: 8px 0;
+    	display: inline-block;
+    	border: 1px solid #ccc;
+    	box-sizing: border-box;
+	background-color:white;
+	}
+
+	button {
+    	background-color: rgb(0, 176, 227);
+    	color: white;
+    	padding: 14px 20px;
+    	margin: 8px 0;
+    	border: none;
+    	cursor: pointer;
+    	width: 100%;
+	opacity: 1;
+	transition: 0.3s;
+	}
+	button:hover {opacity: 0.6;}
+	
+	.container {
+    	padding: 16px;
+	}
